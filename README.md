@@ -1,4 +1,4 @@
-# Low-Latency Order Book (C++20)
+# Low-Latency Order Book
 
 A price-time priority limit order book and matching engine built for latency: 27 ns per message on average and
 36 million messages per second on one core, about 4x the throughput of the textbook `std::map` + `std::list` design on

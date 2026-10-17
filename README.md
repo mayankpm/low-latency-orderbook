@@ -1,5 +1,7 @@
 # Low-Latency Order Book
 
+[![CI](https://github.com/mayankpm/low-latency-orderbook/actions/workflows/ci.yml/badge.svg)](https://github.com/mayankpm/low-latency-orderbook/actions/workflows/ci.yml)
+
 A price-time priority limit order book and matching engine built for latency: 27 ns per message on average and
 36 million messages per second on one core, about 4x the throughput of the textbook `std::map` + `std::list` design on
 the same workload, with identical output. Header-only, no dependencies, no allocation after construction.
